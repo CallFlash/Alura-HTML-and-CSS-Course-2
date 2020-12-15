@@ -28,6 +28,11 @@ nav a {
     color: #000000;
 }
 
+nav a:hover{
+    color: #3a89ca;
+    text-decoration: underline;
+}
+
 .products {
     width: 940px;
     margin: 0 auto;
@@ -38,10 +43,27 @@ nav a {
      text-align: center;
      width: 30%;
      vertical-align: top;
-     padding: 50px 0;
-     margin:  0 1.5%;
-     padding:  30px 20px;
+     margin: 1.5%;
+     padding: 30px 30px 20px 20px;
      box-sizing: border-box;
+     border-style: solid;
+     border-width: 2px;
+     border-radius: 20px;
+     border-color: #000000;
+}
+
+.products li:hover{
+    color: #3a89ca;
+    border-color: #3a89ca
+}
+
+.products li:active{
+    color: #3fca3a;
+    border-color: #3fca3a
+}
+
+.products li:hover h2{
+    font-size: 40px;
 }
 
 .products h2{
@@ -55,7 +77,20 @@ nav a {
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 10px;
+}
 
 .product-description{
     font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background: url("img/bg.jpg");  
+    padding: 40px 0;  
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
